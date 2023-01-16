@@ -3,7 +3,7 @@
  * 
  * By fruestueck based on github.com/MichMich/MagicMirror/blob/master/modules/default/currentweather
  */
-Module.register("MMM-test", {
+Module.register("MMM-IconDisplayer", {
 	// Default module config.
 	defaults: {		
 		lang: config.language,

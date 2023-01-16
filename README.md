@@ -4,7 +4,8 @@ Module for [MagicMirror](https://github.com/MichMich/MagicMirror/) showing the p
 
 ## Screenshots
 
-![Screenshot](doc/MQTT.png)
+![Screenshot](icons/10.png)
+![Screenshot](icons/20.png)
 
 ## Installasjon
 

@@ -10,7 +10,7 @@ Module for [MagicMirror](https://github.com/MichMich/MagicMirror/) showing the p
 
 Go to `MagicMirror/modules` and write
 
-    git clone https://github.com/
+    git clone https://github.com/wiedsee/MMM-IconDisplayer.git
     cd MMM-IconDisplayer
     npm install
 

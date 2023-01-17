@@ -14,12 +14,6 @@ Module.register("MMM-IconDisplayer", {
 				max: 10, // maximum value to display icon
 				min: 10, // minimum value to display icon
 			},
-			{
-				topic: "Tank_2", // topic name for the MQTT message
-				icon: "20", // icon name to display
-				max: 10, // maximum value to display icon
-				min: 10, // minimum value to display icon
-			},
 		],
 		
 	},

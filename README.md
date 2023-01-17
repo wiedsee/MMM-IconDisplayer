@@ -4,10 +4,10 @@ Module for [MagicMirror](https://github.com/MichMich/MagicMirror/) showing the p
 
 ## Screenshots
 
-![Screenshot](icons/10.png)
-![Screenshot](icons/20.png)
+![Screenshot](screenshots/screenshot1.png)
+![Screenshot](screenshots/screenshot1.png)
 
-## Installasjon
+## Installation
 
 Go to `MagicMirror/modules` and write
 

@@ -5,7 +5,7 @@ Module for [MagicMirror](https://github.com/MichMich/MagicMirror/) showing the p
 ## Screenshots
 
 ![Screenshot](screenshots/screenshot1.png)
-![Screenshot](screenshots/screenshot1.png)
+![Screenshot](screenshots/screenshot2.png)
 
 ## Installation
 

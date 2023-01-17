@@ -50,5 +50,5 @@ Here is an example configuration with description. Put it in the `MagicMirror/co
 
 To be able to use this module with MMM-MQTT you will have the change one line in the MMM-MQTT.js file
 You can find this line under "setSubscriptionValue" around line 84.
-You will need to replace "```javascript this.sendNotification("MQTT_MESSAGE_RECEIVED", payload);```" with "```javascript this.sendNotification( payload.topic , payload.value);```"
+You will need to replace ```this.sendNotification("MQTT_MESSAGE_RECEIVED", payload);``` with ```this.sendNotification( payload.topic , payload.value);```
 And both Topics Need to be exactly the same for it to work properly.

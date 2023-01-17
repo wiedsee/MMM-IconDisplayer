@@ -26,27 +26,24 @@ You can add your own icons to MagicMirror/modules/MMM-IconDisplayer/icons
 Here is an example configuration with description. Put it in the `MagicMirror/config/config.js` file:
 
 ```javascript
-{
-  module: 'MMM-IconDisplayer',
-  position: 'top_right',
-  header: 'IconDisplayer',
-  config: {
-	preferences: [
-		{
-			topic: "Tank_1", // topic / title name of the notification
-			icon: "10", // icon name to display
-			max: 10, // maximum value to display icon
-			min: 10, // minimum value to display icon
+		{	module: "MMM-IconDisplayer",
+			header: 'Water levels',
+			position: "top_right",
+			config: {
+				preferences: [
+					{	topic: "Tank_1", // topic name for the MQTT message
+						icon: "10", // icon name to display
+						max: 10, // maximum value to display icon
+						min: 10, // minimum value to display icon
+					},
+					{	topic: "Tank_2", // topic name for the MQTT message
+						icon: "20", // icon name to display
+						max: 10, // maximum value to display icon
+						min: 10, // minimum value to display icon
+					},
+				],
+			},
 		},
-		{
-			topic: "Tank_2", // topic / title name of the notification
-			icon: "20", // icon name to display
-			max: 10, // maximum value to display icon
-			min: 10, // minimum value to display icon
-		},
-	],
-  }
-}
 ```
 
 ## Configuration for MMM-MQTT

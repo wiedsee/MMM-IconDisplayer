@@ -1,6 +1,6 @@
 # IconDisplayer
 
-Module for [MagicMirror](https://github.com/MichMich/MagicMirror/) showing the payload of a Notification from MAgicMirror (Modules).
+Module for [MagicMirror](https://github.com/MichMich/MagicMirror/) showing the payload of a Notification from MagicMirror (Modules).
 
 ## Screenshots
 

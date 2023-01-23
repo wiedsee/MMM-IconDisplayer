@@ -55,13 +55,11 @@ Module.register("MMM-IconDisplayer", {
 					img.setAttribute('src',this.data.path + "icons/" + this.config.preferences[x].icon + ".png");
 					img.setAttribute('style', "height: 75px; width: auto; display: inline;");
 					wrapper.appendChild(img);
-				} else if ( icon.min === icon.max) {
-					if (icon.max === window['topic:'+this.config.preferences[x].topic]) {
-						var img = document.createElement("img");
-						img.setAttribute('src',this.data.path + "icons/" + this.config.preferences[x].icon + ".png");
-						img.setAttribute('style', "height: 75px; width: auto; display: inline;");
-						wrapper.appendChild(img);
-					}
+				} else if ( icon.min === icon.max && icon.max === window['topic:'+this.config.preferences[x].topic]) {
+					var img = document.createElement("img");
+					img.setAttribute('src',this.data.path + "icons/" + this.config.preferences[x].icon + ".png");
+					img.setAttribute('style', "height: 75px; width: auto; display: inline;");
+					wrapper.appendChild(img);
 				}
 			}
 		}
